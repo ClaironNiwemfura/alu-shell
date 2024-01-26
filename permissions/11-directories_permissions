@@ -1,3 +1,2 @@
-#!/bin/bash
-find . -type d | while read -r dir; do
-chmod a+x "$dir"
+#!/bin/bash 
+find . -type d -exec chmod a+x {} +
